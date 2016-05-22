@@ -1,4 +1,4 @@
-var React = require('react-native');
+var React = require('react');
 var nodeEmoji = require('node-emoji');
 
 class Emoji extends React.Component {
