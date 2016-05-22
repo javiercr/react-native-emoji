@@ -1,7 +1,7 @@
-var React = require('react');
-var nodeEmoji = require('node-emoji');
+import React, { Component } from 'react';
+import nodeEmoji from 'node-emoji';
 
-class Emoji extends React.Component {
+class Emoji extends Component {
   render() {
     var emoji = nodeEmoji.get(this.props.name);
     return (<React.Text>{emoji}</React.Text>);
